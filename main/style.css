@@ -1,4 +1,56 @@
 * {
-    width: 100vh;
-    height: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    display: grid;
+    grid-template-areas: 
+    'header header'
+    'aside article'
+    'section section'
+    'footer footer'
+    ;
+    gap: 10px;
+    grid-auto-rows: 600px 100px 100px 100px;
+}
+
+
+.header {
+    background-image: url(imagens/pexels-sebastians-1276518\ \(1\).jpg);
+    grid-area: header;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+aside {
+    grid-area: aside;
+    background-color: brown;
+}
+
+article {
+    grid-area: article;
+    background-color: brown;
+}
+
+section {
+    grid-area: section;
+    background-color: brown;
+}
+
+footer {
+    grid-area: footer;
+    background-color: brown;
+}
+
+img {
+    width: 150px;
+}
+
+.profile {
+    width: 150px;
+    color:antiquewhite;
+
 }
