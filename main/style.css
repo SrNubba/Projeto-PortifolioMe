@@ -54,3 +54,17 @@ img {
     color:antiquewhite;
 
 }
+
+/* Classes de imagens que ficam dentro dos botões */
+.LinkIcon, .giticon {
+    width: 40px;
+    
+}
+/* Classes do botão*/
+.linkedin, .github {
+    background: rgba(0, 0,0, 0.1);
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin-top: 10px;
+    
+}
