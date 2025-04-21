@@ -1,6 +1,8 @@
+
 * {
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #header {
@@ -8,11 +10,12 @@
     grid-template-areas: 
     'header header'
     'aside article'
+    'h1 h1'
     'section section'
     'footer footer'
     ;
     gap: 10px;
-    grid-auto-rows: 600px 100px 100px 100px;
+    grid-auto-rows: 600px 200px 80px 100px 100px;
 }
 
 
@@ -25,14 +28,46 @@
     align-items: center;
 }
 
-aside {
+.aside {
     grid-area: aside;
-    background-color: brown;
+    text-align: center;
+    width: 500px;
+    height: 500px;
+}
+/* div do aside */
+.about{
+    display: flex;
+    align-items: center;
+    background-color: #d5ddd8;;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+
 }
 
-article {
+.article {
     grid-area: article;
-    background-color: brown;
+    text-align: center;
+    width: 500px;
+    height: 500px;
+}
+
+/* div do article */
+.skills {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: #d5ddd8;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+/* class de imagens da classe skills */
+.python, .html, .css, .js, .java, .c, .sql {
+    width: 35px;
+    margin: 10px;
 }
 
 section {
@@ -43,6 +78,11 @@ section {
 footer {
     grid-area: footer;
     background-color: brown;
+}
+
+h1 {
+    grid-area: h1;
+    text-align: center;;
 }
 
 img {
