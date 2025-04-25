@@ -180,7 +180,8 @@ title {
 /* tag section  */
 .form {
     grid-area: footer;
-    margin: 20px 30%
+    margin: 20px 30%;
+    text-align: center;
 }
 
 /* div input nome */
@@ -203,4 +204,12 @@ title {
     background: rgba(255, 255, 255, 0.05);
     border-radius: 8px;
     font-size: 20px;
+}
+
+/* botão do formulario */
+.btnform {
+    width: 80%;
+    font-size: 20px;
+    color: #d5ddd8;
+    padding: 10px;
 }
