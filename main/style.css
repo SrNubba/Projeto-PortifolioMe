@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+    background: #234d20;
 }
 
 html {
@@ -20,7 +21,7 @@ html {
     'footer footer'
     ;
     gap: 10px;
-    grid-auto-rows: 100vh 50vh 40px 50vh  100px 100px;
+    grid-auto-rows: 100vh 40vh 40px 52vh  60vh 40vh;
 }
 
 
@@ -39,16 +40,17 @@ html {
     height: 500px;
     margin: 30px auto;
     text-align: center;
+
 }
 /* div do aside */
 .about{
     display: flex;
     align-items: center;
-    background-color: #d5ddd8;
+    background: #d5ddd8;
     padding: 10px;
     border-radius: 10px;
     margin: 10px;
-    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    box-shadow: 18px 18px 50px ;
 
 }
 
@@ -95,10 +97,12 @@ html {
     margin: 0 auto;
     text-align: center;
     font-size: 20px;
+    box-shadow: 18px 18px 50px ;
 }
 
 .devTitle {
-    border: 1px solid gray;
+    background: #d5ddd8;
+    border: 2px solid gray;
     border-radius: 10px;
     padding: 5px;
 }
@@ -106,17 +110,14 @@ html {
 .devp {
     display: flex;
     margin: 10px;
-    border: 1px solid gray;
+    border: 2px solid gray;
     border-radius: 10px;
-    box-shadow:  rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;;
+    background: #d5ddd8;
     margin: auto;
     padding: 20px;
 }
 
-.form {
-    grid-area: footer;
-    background-color: brown;
-}
+
 
 h1 {
     grid-area: h1;
@@ -138,8 +139,7 @@ title {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 250px;
-    height: 250px;
+    background: transparent;
     color:antiquewhite;
     gap: 10px;
     font-size: 23px;
@@ -149,6 +149,7 @@ title {
     width: 350px;
     height: 350px;
     border-radius: 50%;
+    background: rgba(0, 0, 0, 0);
 }
 
 /* Classes de imagens que ficam dentro dos botões */
@@ -161,11 +162,9 @@ title {
 
 /* Classes do botão*/
 .linkedin, .github {
-    background: rgba(0, 0,0, 0.1);
     border-radius: 10px;
     border: 1px solid rgba(0, 0, 0, 0.2);
     margin-top: 10px;
-    
 }
 
 .experience {
@@ -175,5 +174,33 @@ title {
 }
 
 .expP {
+    font-size: 20px;
+}
+
+/* tag section  */
+.form {
+    grid-area: footer;
+    margin: 20px 30%
+}
+
+/* div input nome */
+.grupoform {
+    margin-bottom: 20px;
+    
+}
+
+/* Titulo Entre em contato */
+.form-titulo {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* div textarea */
+.campoform {
+    width: 100%;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
     font-size: 20px;
 }
