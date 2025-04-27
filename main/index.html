@@ -65,13 +65,13 @@
         <section class="form">
             <h2 class="form-titulo">Entre em contato</h2>
 
-            <form class="form-contato" id="formulario">
+            <form class="form-contato" id="formulario" onsubmit="enviarMensagem(event)">
                 <div class="grupoform">
-                    <input placeholder="Nome" class="campoform">
+                    <input placeholder="Nome" class="campoform" id="nome">
                 </div>
 
                 <div class="grupoform">
-                    <textarea placeholder="Digite sua mensagem" class="campoform"></textarea>
+                    <textarea placeholder="Digite sua mensagem" class="campoform" rows="6" id="mensagem"></textarea>
                 </div>
 
                 <button type="submit" class="btnform">
