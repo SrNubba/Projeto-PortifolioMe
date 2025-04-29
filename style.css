@@ -21,7 +21,7 @@ html {
     'footer footer'
     ;
     gap: 10px;
-    grid-auto-rows: 100vh 40vh 40px 52vh  60vh 60vh;
+    grid-auto-rows: 100vh 100vh 40px 52vh  60vh 60vh;
 }
 
 
